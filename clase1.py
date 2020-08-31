@@ -40,10 +40,9 @@ print(resultado)
 """
 # Ejercicio 11
 # Crear un programa que, dado un string, retorne la longitud de la última palabra. Se considera que las palabras están separadas por uno o más espacios. También podría haber espacios al principio o al final del string pasado por parámetro.
-"""
+
 def ejercicio11(userInput):
     wordList = userInput.split()
     return len(wordList[-1])
 
 print(ejercicio11("Bienvenidos a paradigmas de programación"))
-"""
